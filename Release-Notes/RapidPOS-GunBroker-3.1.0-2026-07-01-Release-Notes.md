@@ -22,13 +22,14 @@ Fixed an issue preventing Ship Status and Buyer Feedback from sending to GunBrok
 - Default Buyer Feedback can be set as part of the GunBroker.com configuration in Counterpoint.
 
 ### Run Connector Manually Button Update  
-Updated the functionality of the "Run Connector Manually" button for the GunBroker connector to improve behavior and reliability when manually triggering a sync.
+Updated the functionality of the "Run Connector Manually" button to trigger the connector executable through Windows Services, improving behavior and reliability when manually initiating a sync.  
+- The Scheduled Task that was previously used will be removed. 
 
 ### EC_GUNBRKR Paycode Refund Setting  
 Updated the EC_GUNBRKR paycode configuration to allow unlimited refunds.  
 - Allows a GunBroker order to be refunded to the EC_GUNBRKR paycode.
 
-Note: This is specifically for the GunBroker paycode. If a refund to the customer is necessary, that must still be completed via GunBroker._
+Note: This is specifically for the GunBroker paycode. If a refund to the customer is necessary, that must still be completed via GunBroker.
 
 ---
 
@@ -49,11 +50,6 @@ Updated the 205 Workgroup to populate numbers correctly.
 ---
 
 ## Removed  
-
-### Item Price Options Removed from GunBroker Configuration  
-Removed the Item Price Options section from the GunBroker Configuration window.  
-- This option is no longer needed/applicable. 
-- This setting is no longer required or applicable.
 
 ### Item Price Options Removed from GunBroker Configuration  
 Removed the Item Price Options section from the GunBroker Configuration window.  
