@@ -1,5 +1,5 @@
 # Rapid POS GunBroker Integration Release Notes  
-_Release Date: July 1, 2026
+Release Date: July 1, 2026
 
 ---
 
