@@ -22,7 +22,7 @@ Fixed an issue preventing Ship Status and Buyer Feedback from sending to GunBrok
 - Default Buyer Feedback can be set as part of the GunBroker.com configuration in Counterpoint.
 
 ### Run Connector Manually Button Update  
-Updated the functionality of the "Run Connector Manually" button to trigger the connector executable through Windows Services, improving behavior and reliability when manually initiating a sync.  
+Updated the functionality of the "Run Connector Manually" button to include trigger of exe via Windows Services to improve behavior and reliability when manually triggering a sync. 
 - The Scheduled Task that was previously used will be removed. 
 
 ### EC_GUNBRKR Paycode Refund Setting  
