@@ -8,6 +8,22 @@ This release includes several bug fixes and enhancements improving GunBroker ord
 
 ---
 
+## New Features & Enhancements  
+
+### Consigned Item Support  
+Added support for listing and processing consigned items through the GunBroker integration.  
+- Consigned inventory can now be listed for sale and processed through orders.
+
+### Mark All Messages as Read  
+Added a "Mark All Messages as Read" option for GunBroker messages.  
+- Allows users to clear message notifications in bulk instead of marking each message individually.
+
+### 205 Workgroup Numbering & Drawer Assignment Update  
+Updated the 205 Workgroup to populate numbers correctly.  
+- Updated Store Settings so that Drawer Assignment defaults to "None."
+
+---
+
 ## Bug Fixes  
 
 ### Ext Cost Calculation Fix  
@@ -30,22 +46,6 @@ Updated the EC_GUNBRKR paycode configuration to allow unlimited refunds.
 - Allows a GunBroker order to be refunded to the EC_GUNBRKR paycode.
 
 Note: This is specifically for the GunBroker paycode. If a refund to the customer is necessary, that must still be completed via GunBroker.
-
----
-
-## New Features & Enhancements  
-
-### Consigned Item Support  
-Added support for listing and processing consigned items through the GunBroker integration.  
-- Consigned inventory can now be listed for sale and processed through orders.
-
-### Mark All Messages as Read  
-Added a "Mark All Messages as Read" option for GunBroker messages.  
-- Allows users to clear message notifications in bulk instead of marking each message individually.
-
-### 205 Workgroup Numbering & Drawer Assignment Update  
-Updated the 205 Workgroup to populate numbers correctly.  
-- Updated Store Settings so that Drawer Assignment defaults to "None."
 
 ---
 
